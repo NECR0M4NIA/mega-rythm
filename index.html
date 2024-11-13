@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de rythme</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jeu de rythme</h1>
+        <p>Appuyez sur <span class="key">A</span>, <span class="key">S</span>, ou <span class="key">D</span> pour attraper les notes au bon moment !</p>
+        <div class="score">Score : <span id="score">0</span></div>
+        <button id="start-btn">Démarrer le jeu</button>
+        <div class="game">
+            <div class="lane" id="lane-a"></div>
+            <div class="lane" id="lane-s"></div>
+            <div class="lane" id="lane-d"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
